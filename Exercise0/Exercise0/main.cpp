@@ -1,9 +1,8 @@
-
-include <iostream>
-include <math> //Libreria contenente funzione Pow
-include <limitis> //Contiene le funzioni min e max
-include <iomanip> // Libreria contenente i manipolatori di output -> setprecision(16) = 16 cifre significative, scientific = notazione scientifica
-include <numbers> //Contiene numeri significativi come pi --> introdotti nel 2020, quindi usare versioni > 2020
+#include <iostream>
+#include <cmath>
+#include <limits> //Contiene le funzioni min e max
+#include <iomanip> // Libreria contenente i manipolatori di output -> setprecision(16) = 16 cifre significative, scientific = notazione scientifica
+#include <numbers> //Contiene numeri significativi come pi --> introdotti nel 2020, quindi usare versioni > 2020
 
 int main()
 {
@@ -28,5 +27,6 @@ int main()
     std::cout << "a1 = " << a1 << std::endl;
     std::cout << "s1 = " << s1 << std::endl; // concatenazione di stringhe
 
+    
     return 0;
 }

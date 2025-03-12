@@ -1,4 +1,3 @@
-
 #include <fstream> // stream per i file
 #include <iostream>
 
@@ -9,7 +8,7 @@ int main()
 
     if (file.fail())
     {
-        std::cerr << "Non è stato possibile aprire il file" << std:endl;
+        std::cerr << "Non è stato possibile aprire il file" << std::endl;
         return 1; // return 1 per segnalare errore
     }
 
