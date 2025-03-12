@@ -1,3 +1,4 @@
+
 include <iostream>
 include <math> //Libreria contenente funzione Pow
 include <limitis> //Contiene le funzioni min e max
@@ -27,6 +28,5 @@ int main()
     std::cout << "a1 = " << a1 << std::endl;
     std::cout << "s1 = " << s1 << std::endl; // concatenazione di stringhe
 
-    
     return 0;
 }
