@@ -38,6 +38,8 @@ list(APPEND SumValues_LINKED_LIBRARIES PRIVATE GTest::gmock_main)
 ################################################################################
 add_executable(${PROJECT_NAME}
     main.cpp
+    "${CMAKE_CURRENT_SOURCE_DIR}/funzioni.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/funzioni.hpp"
     ${SumValues_SOURCES}
     ${SumValues_HEADERS})
 

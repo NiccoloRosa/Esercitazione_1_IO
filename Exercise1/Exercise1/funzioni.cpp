@@ -1,15 +1,8 @@
-#include <fstream> // stream per i file
-#include <iostream> //tipi che vanno ad ereditare i tipi più famosi di input e output
+#include <iostream>
+#include <fstream>
 
+#include "funzioni.hpp"
 
-unsigned int sum_values(unsigned int N);
-// nota che le assegnazioni, a differenza delle definizioni, possono essere ripetute senza generare errore. 
-unsigned int sum_values(unsigned int N);
-
-unsigned int sum_values( unsigned int N) // con la keyword const ho accesso al dato ma non lo posso modificare 
-{
-    return N * (N+1) * (2*N +1)/6; 
-}
 
 int main()
 {
@@ -44,3 +37,4 @@ int main()
 
     return 0;
 }
+
